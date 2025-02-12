@@ -1,9 +1,9 @@
 import math
-print("Enter Loan amount")
+print("Enter Loan Amount")
 p=input()
-print("Enter an annual interest rate")
+print("Enter an Annual Interest Rate in Percentage")
 r=input()
-print("Enter a loan length in year")
+print("Enter a Loan Length in Year")
 t=input()
 p=float(p)
 r=float(r)
@@ -20,16 +20,3 @@ for i in range (1,month+1):
 	endingBalance=startingBalance+interestCharge-m
 	print(str(i)+"\t\tRs"+str(round(startingBalance,2))+"\t\tRs"+str(round(interestCharge,2))+"\t\t\tRs"+str(round(m,2))+"\t\tRs"+str(round(endingBalance,2)))
 	startingBalance=endingBalance
-
-
-
-
-
-
-
-
-
-
-
-
-# https:("https://www.youtube.com/watch?v=nv7KnjG5Pxg")
